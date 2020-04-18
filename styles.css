@@ -1,0 +1,67 @@
+
+div label {
+    padding-left: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+html {
+    background-image: linear-gradient(90deg, rgba(75, 119, 190, 0.8), rgba(75, 119, 190, 0.8)),url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+label {
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+[type = "radio"], [type = "checkbox"] {
+    transform: scale(1.8);
+}
+
+.main-title {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: larger;
+}
+
+#survey-form {
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    background-color: rgba(46, 49, 49, 0.5);
+    padding: 35px;
+    border-radius: 10px;
+    font-size: larger;
+
+}
+
+#name, #email, #number, #dropdown, #textarea, #submit {
+    display: block;
+    width: 95%;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}  
+
+#submit {
+    background-color: lightgreen;
+}
+#textarea {
+    resize: vertical;
+    font-size: 20px;
+}
+
+
+
+
+

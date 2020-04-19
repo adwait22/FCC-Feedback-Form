@@ -1,4 +1,7 @@
 
+div {
+    margin-bottom: 15px;
+}
 div label {
     padding-left: 10px;
     display: inline-block;
@@ -32,7 +35,7 @@ label {
 }
 
 #survey-form {
-    width: 90%;
+    width: 85%;
     max-width: 650px;
     margin: auto;
     background-color: rgba(46, 49, 49, 0.5);
@@ -42,23 +45,32 @@ label {
 
 }
 
-#name, #email, #number, #dropdown, #textarea, #submit {
+#name, #email, #number, #dropdown, #textarea, #submit, #dropdown2 {
     display: block;
     width: 95%;
     height: 35px;
     font-size: 20px;
     border-radius: 5px;
     border-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     padding-left: 15px;
-}  
+} 
+
+#dropdown, #dropdown2, #submit {
+    padding-left: 15px;
+    margin-bottom: 30px;
+    width: 97%;
+}
+
 
 #submit {
     background-color: lightgreen;
+    height: 50px;
 }
 #textarea {
     resize: vertical;
     font-size: 20px;
+    height: 110px;
 }
 
 

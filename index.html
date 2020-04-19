@@ -21,20 +21,20 @@
         action="mailto:adwaitupadhyay@gmail.com"
         method="POST"
         id="survey-form"
-        enctype="text/plain"
+        
         > 
 
-            <label for="name">Name</label> <br>
+            <label id="name-label" for="name">Name</label> <br>
             <input type="text" name="Name" id="name" 
             placeholder="Enter your name"
             ><br>
 
-            <label for="email">Email</label><br>
+            <label id="email-label" for="email">Email</label><br>
             <input type="email" name="Email" id ="email"
             placeholder="Enter your Email"
             ><br>
 
-            <label for="number">Age (optional)</label><br>
+            <label id="number-label" for="number">Age (optional)</label><br>
             <input type="number" name="Age" min="18" max="62"
             id="number" placeholder="Age"
             ><br>
@@ -67,7 +67,22 @@
                 <input type="radio" id="not-sure" name="Recommend FCC?"
                 value="Not sure">
                 <label for="not-sure">Not sure</label>
-
+            </div>    
+                
+            <label for="dropdown2">
+                What is your favorite feature of freeCodeCamp?
+            </label><br>
+            <select name="feature" id="dropdown2">
+                <option value="" disabled selected>
+                    Select an option
+                </option>
+                <option value="Challenges">Challenges</option>
+                <option value="Projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="Open Source">Open Source</option>
+            </select>
+            
+            <div>
                 <p>What would you like to see improved? 
                 <span>(Check all that apply)</span>
                 </p>
@@ -128,13 +143,12 @@
                 <label for="k">Additional Courses</label><br>
             </div>
             
-
             <p>Any comments or suggestions?</p>
-            <textarea name="comment" id="textarea" cols="30" rows="10"
-            placeholder="Enter your comments here..."></textarea>
+            <textarea name="comment" id="textarea" placeholder="Enter your comments here..."></textarea>
             <br>
             <input type="submit" id="submit" value="submit">
         </form>        
     </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>

@@ -67,6 +67,9 @@ label {
     background-color: lightgreen;
     height: 50px;
 }
+#submit:hover {
+    cursor: pointer;
+}
 #textarea {
     resize: vertical;
     font-size: 20px;
